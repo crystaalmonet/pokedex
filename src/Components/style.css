@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: pink;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 4px;
+    color: #b74555;
+}
+
+.left-content, .right-content{
+    flex-basis: 50%;
+}
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:2rem;
+    margin: 0;
+    padding: 10px;
+}
+
+.card{
+width: 300px;
+background-color: skyblue;
+border-radius: 1rem;
+box-shadow: 0 5px 5px lightsalmon;
+padding: 0 1.5rem;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+}
+
+.card{
+    width: 300px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:100px;
+    right: 10px;
+}
+
+.right-title{
+    font-style: italic bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+}
+
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-style: italic bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.base-stat{
+    margin-top: 2rem;
+}
+
+.btn-group{
+    display: flex;
+}
+
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
